@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d "[:blank:]" -f 1 | tail +2 | sort
+cut -d "-" -f 1 | tail +2 | sort | uniq -c | sort -hr | rev | cut -d " " -f 1 | rev | tr -d "[:blank:]"
