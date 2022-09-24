@@ -4,4 +4,4 @@ git add $archives_to_push
 read -p 'message fot this commit: ' message
 git commit -m "$message"
 git status
-
+git push
