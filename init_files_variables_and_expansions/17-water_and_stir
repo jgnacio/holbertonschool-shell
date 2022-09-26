@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $water | echo $stir | echo $bestchol
+echo "$water"
